@@ -1,0 +1,39 @@
+{
+  "name": "shared-components",
+  "version": "0.0.0",
+  "description": "a sub-generator for react features",
+  "main": "index.js",
+  "scripts": {
+    "generate": "ts-node plop",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.5.10",
+    "@storybook/manager-webpack5": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.17",
+    "@yext/pages": "^1.0.0-beta.4",
+    "@yext/types": "^0.1.9-alpha",
+    "babel-loader": "^8.2.5",
+    "plop": "^3.1.1",
+    "tsconfig-paths-webpack-plugin": "^4.0.0",
+    "webpack": "^5.74.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.1.8"
+  }
+}
